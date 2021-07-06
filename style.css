@@ -5,14 +5,17 @@
 }
 
 .header{
+    position: absolute;
     min-height: 100vh;
     width: 100%;
-    background-color: yellowgreen;
+      
 }
 nav{
     background-color: white;
     display: flex;
     height: 130px;
+    /* position: relative; */
+    
 }
 nav img{
     height: 100px;
@@ -74,7 +77,7 @@ nav img{
 .nav-links ul li{
     list-style: none;
     display: inline-block;
-    padding: 21px 30px;
+    padding: 12px 30px;
     position: relative;
 }
 .nav-links ul li i{
@@ -103,4 +106,105 @@ nav img{
 
 .item-section{
     width: 100%;
+}
+
+
+/* search section  */
+.wrapper{
+
+	display: flex;
+}
+
+.trigger_search{
+    background-color: transparent;
+	border:0;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	outline:0;
+	cursor: pointer;
+
+}
+
+.input{
+
+	border-radius: 20px;
+	border:0;
+	outline: 0;
+	transition: 0.25s ease-in-out all;
+	width: 0;
+	padding: 0;
+	margin-right: -20px;
+	height: 40px;
+}
+
+.input-open{
+
+	width: 20vw;
+	padding: 0 20px;
+	margin-right: 10px;
+}
+
+/* Banner video  */
+.header video{
+    position:absolute;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    /* opacity: 0.9; */
+    z-index: 2;
+    
+}
+
+.text
+{
+  position: relative;
+  z-index: 10;
+}
+
+.text h2
+{  
+    padding-top: 150px;
+    padding-left: 150px;
+    font-size: 4em;
+    font-weight: 800;
+    color: white;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+.text h3
+{
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-bottom: 20px;
+    font-size: 2em;
+    font-weight: 700;
+    color: white;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+.text a
+{
+    margin: 150px;
+    display: inline-block;
+    font-size: 1em;
+    background: #fff;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #15173b;
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+.text a:hover
+{
+  letter-spacing: 6px;
+  background: #15173b;
+  color: white;
 }
