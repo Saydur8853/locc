@@ -214,6 +214,7 @@ nav img{
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    height: 760px;
 }
 
 .grid-child1{
@@ -225,7 +226,7 @@ nav img{
     background: url('./images/dmp.png') no-repeat local left;
     background-size: 400px;
     position: absolute;
-    top: 300px;
+    top: 150px;
     left: -180px;
     width:100%;
     height:100%;
@@ -239,6 +240,7 @@ nav img{
 .grid-child1 p{
     margin: 0px 100px 50px 100px;
     text-align: justify;
+    color: #000;
 }
 
 .grid-child1 a{
@@ -263,12 +265,180 @@ nav img{
 
 .grid-child2{
     width: 100%;
-    font-size: 20px;
-    background-color: yellowgreen;
+    background-color: #F5F5F5;
 }
 
 .grid-child2 h2{
+    font-size: 30px;
     text-align: center;
     margin-top: 100px;
+    margin-bottom: 30px;
 
+}
+.heading{
+    position:relative;
+}
+
+.heading:before{
+    content: "";
+    display:block;
+    width: 80px;
+    height:3px;
+    background: #C51B1A;
+    position: absolute;
+    left: 150px;
+    top: 50%;
+    }
+.heading:after{
+    content: "";
+    display:block;
+    width: 80px;
+    height:3px;
+    background: #C51B1A;
+    position: absolute;
+    right: 150px;
+    top: 50%;
+    }
+
+.img-cards{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 491px;
+   
+}    
+
+.firstImagCards{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    
+}
+.firstImagCards img{
+    margin-top: 25px;
+    height: 200px;
+    width: 200px;
+    border: 5px solid #fff;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+}
+
+.secondImagCards{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.secondImagCards img{
+    margin-top: 25px;
+    height: 200px;
+    width: 200px;
+    border: 5px solid #fff;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+}
+
+/* Locc_President  */
+
+.Locc_President{
+    background-color: #15173B;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Locc_President img{
+    max-width:70%;
+    height:auto;
+    margin-top: 80px;
+    margin-bottom: 15px;
+    margin-left: 80px;
+}
+.Locc_President h3{
+    margin-left: 150px;
+    color: white;
+}
+
+.President-massage{
+    width: 50%;
+    margin-top: 80px;
+    margin-right: 80px;
+}
+.President-massage h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: white;
+    text-align: justify;
+    line-height: 28px;
+}
+.President-massage p{
+    margin-bottom: 30px;
+    color: white;
+    text-align: justify;
+    line-height: 28px;
+}
+
+/* Chief part  */
+
+.Locc_chief{
+    background:#131B43;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.Locc_chief::before{
+    content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  background-image: url('./images/bdPoliceLogo.png');
+  background-repeat: no-repeat;
+  background-position: 30%;
+}
+
+.Locc_chief img{
+    max-width:80%;
+    height:auto;
+    margin-top: 150px;
+    margin-bottom: 15px;
+    margin-right: 80px;
+}
+.Locc_chief h3{
+    margin-left: 50px;
+    margin-top: 30px;
+    color: white;
+}
+
+.chief-massage{
+    width: 50%;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.chief-massage h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: white;
+    text-align: justify;
+    line-height: 28px;
+}
+
+.chief-massage p{
+    margin-bottom: 30px;
+    color: white;
+    text-align: justify;
+    line-height: 28px;
+}
+
+/* Division-portion  */
+
+.Division-portion{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    font-size: 30px;
 }
