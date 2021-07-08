@@ -85,7 +85,7 @@ nav img{
 }
 
 .nav-links ul li :hover{
-    color: #b8b8b9;
+    color: #cdf100;
     transition: 0.5s;
 }
 
@@ -225,10 +225,10 @@ nav img{
 .grid-child1::after {
     content:'';
     background: url('./images/dmp.png') no-repeat local left;
-    background-size: 400px;
+    background-size: 250px;
     position: absolute;
-    top: 5px;
-    left: -180px;
+    top: 50px;
+    left: 200px;
     width:90%;
     height:90%;
     z-index:-1;
@@ -287,7 +287,7 @@ nav img{
     height:3px;
     background: #C51B1A;
     position: absolute;
-    left: 150px;
+    left: 120px;
     top: 50%;
     }
 .heading:after{
@@ -297,9 +297,17 @@ nav img{
     height:3px;
     background: #C51B1A;
     position: absolute;
-    right: 150px;
+    right: 120px;
     top: 50%;
     }
+
+
+.Members_catagory h3{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    background-color: #15173b;
+}
 
 .img-cards{
     
@@ -308,29 +316,35 @@ nav img{
     margin-right: auto;
     width: 90%;
     height: 491px;
-   
+    overflow-y: auto;
 }    
 
-.firstImagCards{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 50px;
-    
+.wrapper::-webkit-scrollbar{
+    width:0;
 }
-.firstImagCards img{
-    margin-top: 25px;
-    height: 200px;
-    width: 200px;
+
+.imgCard img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 50%;
     border: 5px solid #fff;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
 }
 
-.secondImagCards{
+.img-cards p{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.thirdImagCards{
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
 }
-.secondImagCards img{
+.thirdImagCards img{
     margin-top: 25px;
     height: 200px;
     width: 200px;
