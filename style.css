@@ -29,6 +29,9 @@ nav img{
     height: 50%;
     font-size: 24px;
 }
+.nav-doc p{
+    color: #2c2b2b;
+}
 .bar::after{
     content: '';
     margin-top: 10px;
@@ -66,6 +69,7 @@ nav img{
 
 .social-icon{
     margin-left: 50px;
+    color: #2c2b2b;
 }
 
 .nav-links{
@@ -106,6 +110,7 @@ nav img{
 
 .item-section{
     width: 100%;
+    color: #2c2b2b;
 }
 
 
@@ -215,6 +220,7 @@ nav img{
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 760px;
+    color: #2c2b2b;
 }
 
 .grid-child1{
@@ -241,7 +247,7 @@ nav img{
 .grid-child1 p{
     margin: 0px 100px 50px 100px;
     text-align: justify;
-    color: #000;
+    color: #2c2b2b;
 }
 
 .grid-child1 a{
@@ -323,6 +329,16 @@ nav img{
     width:0;
 }
 
+.img-cards p{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.imgCard p{
+    color: #000;
+}
+
 .imgCard img{
     display: block;
     margin-left: auto;
@@ -333,16 +349,14 @@ nav img{
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
 }
 
-.img-cards p{
-    text-align: center;
-    margin-top: 10px;
-    font-weight: 600;
-}
 
 .thirdImagCards{
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
+}
+.thirdImagCards p{
+    color: #2c2b2b;
 }
 .thirdImagCards img{
     margin-top: 25px;
@@ -456,4 +470,67 @@ nav img{
     justify-content: space-evenly;
     margin-top: 10%;
     font-size: 30px;
+    background-color: teal;
+    margin-bottom: 100px;
+}
+
+.footer-Container{
+    background: #131B43;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    height: 250px;
+    
+    
+}
+
+.about-section{
+    margin-left: 100px;
+    width: 250px;
+}
+
+.about-section h2,p {
+    margin-bottom: 20px;
+    color: white;
+    text-align: justify;
+}
+
+.quick-links-section,.support-section{
+    color: white;
+}
+
+.quick-links-section a,.support-section a{
+    margin-top: 15px;
+    color: white;
+    display: grid;
+    text-decoration: none;  
+}
+
+.follow-container{
+    color: white;
+    text-align: center;
+}
+
+.footer-social-icon{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15%;
+    margin-left: 25px;
+    font-size: 20px;
+}
+.footer-social-icon i{
+    margin-right: 20px;
+}
+
+.depertment-logos{
+    padding-top: 11px;
+    display: flex;
+    justify-content: space-around;
+}
+.depertment-logos img{
+    width: 90px;
+    height: 85px;
+    margin-right: 30px;
+    background: white;
+
 }
