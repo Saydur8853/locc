@@ -1,0 +1,45 @@
+.img-cards-member{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}  
+
+
+.img-cards-member p{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.imgCard-member p{
+    color: #000;
+}
+
+.imgCard-member img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+}
+
+
+.thirdImagCards{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.thirdImagCards p{
+    color: #2c2b2b;
+}
+.thirdImagCards img{
+    margin-top: 25px;
+    height: 200px;
+    width: 200px;
+    border: 5px solid #fff;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+}
