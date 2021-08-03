@@ -1,9 +1,12 @@
-.project_banner{
+.about_banner{
     height: 500px;
     width: 100%;
-    background-image: url('./images/Component\ 1\ –\ 1.jpg');
+    background-image: url('./images/pistol.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
-.project_banner h1{
+.about_banner h1{
     color: white;
     font-size: 10vh;
     padding-top: 160px;
@@ -11,55 +14,49 @@
 }
 
 
-.projectsectionleft{
-    background-color: #15173B;
+.aboutsectionleft{
+    
     padding-bottom: 80px;
     display: flex;
     justify-content: space-around;
 }
 
-.projectsectionleft img{
+.aboutsectionleft img{
     max-width:70%;
     height:auto;
     margin-top: 80px;
     margin-bottom: 15px;
     margin-left: 80px;
 }
-.projectsectionleft h3{
-    margin-left: 150px;
-    color: white;
-}
-
-.projectDescription{
+.aboutDescription{
     width: 50%;
     margin-top: 80px;
     margin-right: 80px;
 }
-.projectDescription h1{
+.aboutDescription h1{
     font-size: 40px;
     margin-bottom: 30px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     /* text-align: justify; */
     line-height: 50px;
 }
-.projectDescription p{
+.aboutDescription p{
     margin-bottom: 30px;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: justify;
     line-height: 28px;
 }
 
 /* Chief part  */
 
-.projectsectionRight{
-    background:#131B43;
+.aboutsectionRight{
     padding-bottom: 80px;
     display: flex;
     justify-content: space-around;
     position: relative;
 }
 
-.projectsectionRight::before{
+.aboutsectionRight::before{
     content: ' ';
   display: block;
   position: absolute;
@@ -72,36 +69,31 @@
   background-position: 30%;
 }
 
-.projectsectionRight img{
+.aboutsectionRight img{
     max-width:80%;
     height:auto;
     margin-top: 150px;
     margin-bottom: 15px;
     margin-right: 80px;
 }
-.projectsectionRight h3{
-    margin-left: 50px;
-    margin-top: 30px;
-    color: white;
-}
 
-.projectDescription2{
+.aboutDescription2{
     width: 50%;
     margin-top: 80px;
     margin-left: 80px;
 }
-.projectDescription2 h1{
+.aboutDescription2 h1{
     font-size: 40px;
     margin-bottom: 30px;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: justify;
     line-height: 28px;
 }
 
-.projectDescription2 p{
+.aboutDescription2 p{
     width: 80%;
     margin-bottom: 30px;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: justify;
     line-height: 28px;
 }
