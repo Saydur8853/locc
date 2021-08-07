@@ -1,45 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOCC</title>
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e700c89295.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <section class="header">
-        <nav>
-            <div class="logo-section">
-                <a href="index.html"></a><img src="images/logo.png"></a>
-            </div>
 
-            <div class="item-section">
-                <div class="nav-doc">
-                    <div class="bar"></div>
-                <p>Law and Order Coordination Committee.</p>
-                <div class="bar"></div>
-                <img src="images/mujibNav.png">
-                <div class="bar"></div>
-                <i class="fas fa-phone-alt"></i>
-                <h4>+88028881876 </h4>
-                <div class="bar"></div>
-                
-                <div class="social-icon">
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-youtube"></i>
-                </div>
-            </div>
-            <div class="nav-links">
-                <ul>
-                    <li><a class="current" href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT US <i class="fas fa-caret-down"></i> </a>
+    <title>LOCC</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img class="logo" src="imageSerial/logos/LOCC Logo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        
+
+
+        <div class="collapse navbar-collapse nav-links row" id="navbarSupportedContent">
+
+          <div class="nav-doc">
+            <div class="bar"></div>
+        <p>Law and Order Coordination Committee.</p>
+        <div class="bar"></div>
+        <img src="imageSerial/logos/mujibNav.png">
+        <div class="bar"></div>
+        <i class="fas fa-phone-alt"></i>
+        <h4>+88028881876</h4>
+        <div class="bar"></div>
+        
+        <div class="social-icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+    </div>
+
+<div class="navItems">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li><a class="current" href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US 
+                      <i class="fas fa-caret-down"></i> </a>
                         <div class="dropdown_menu">
                             <ul>
                                 <li><a href="members.html">MEMBERS</a></li>
@@ -50,27 +61,36 @@
                     </li>
                     <li><a href="projects.html">PROJECTS</a></li>
                     <li><a href="contact.html">CONTACT</a></li>
-                    <li>
-                        <div class="wrapper">
-                        <input type="text" class="input" placeholder="Search Here.."/>
-                        <button type="button" class="trigger_search"><i class="fas fa-search icon"></i></button>
-                      </div>
-                    </li>
-                    
-                </ul>
-            </div>
-        </div>
-        </nav>
+            <li>
+              <div class="wrapper">
 
-        <div class="banner">
-        <video src="/video/video.mp4" muted loop autoplay></video>
-        <div class= "overlay"></div>
-        <div class="text">
-            <h2>BD POLICE DEPARTMENT</h2>
-            <h3>Honor. Integrity. Service.</h3>
-            <a href="#">Explore</a>
+                <button type="button" class="trigger_search"><i class="fas fa-search icon"></i></button>
+                <input type="text" class="input" placeholder="Search Here.."/>
+                
+              </div>
+            </li>
+          </ul>
+          
         </div>
+      </div>
+    </nav> 
+
+
+    <div class="video-background">
+      <div class="video-wrap">
+      <div id="video">
+        <video id="bgvid" src="/imageSerial/banners/video.mp4" muted loop autoplay playsinline></video>
+
+      </div>
     </div>
+  </div>
+
+  <div class="caption text-center">
+    <h1>BD POLICE DEPARTMENT</h1>
+    <h3>Honor. Integrity. Service.</h3>
+    <a class="btn btn-outline-light btn-lg" href="">EXPLORE</a>
+  </div>
+<!-- NavNavNavNavNavNavNavNavNavNavNavNavNavNavNavNavNavNavNavNavNavNavNavNavNav -->
 
     <div class="grid-container">
 
@@ -367,15 +387,17 @@
         </div>
 
         <div class="depertment-logos">
-            <img src="images/bdPoliceLogo.png">
-            <img src="images/logo.png">
-            <img src="images/dmp.png">
+            <img src="imageSerial/bdPoliceLogo.png">
+            <img src="imageSerial/logo.png">
+            <img src="imageSerial/dmp.png">
         </div>
     </div>
     </footer>
 <!-- FooterFooterFooterFooterFooterFooterFooterFooterFooter -->
-    </section>
-    
+
+    <!-- Option : Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
     <script src="main.js"></script>
 </body>
 

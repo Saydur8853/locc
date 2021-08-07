@@ -1,7 +1,8 @@
 .project_banner{
-    height: 500px;
+    height: 31.25rem;
     width: 100%;
     background-image: url('./images/Component\ 1\ –\ 1.jpg');
+    background-repeat: no-repeat;
 }
 .project_banner h1{
     color: white;
